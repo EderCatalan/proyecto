@@ -1,0 +1,133 @@
+html{
+    font-size: 25px;
+    background: url("images/circuit-board.jpg");
+    height: 100%;
+    margin: 0px 0px 0px 160px;
+    padding: 0;
+    width: 1016px;
+    height: 1610px;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+
+#main_title
+{
+    display: inline-block;
+}
+
+header h1
+{
+    font-family: Acme, serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: top;
+    display: block;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.5em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+/* Banner */
+
+#banner_image
+{
+    margin-top: 15px;
+    height: 200px;
+    width: 960px;
+    border-radius: 5px;
+    background: url('images/wallpaper-2900479.png') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+/* Navigation */
+
+nav {
+    margin: 0px;
+    height: 50px;
+}
+
+nav ul {
+    margin: 0px 0px 5px 0px;
+    height: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 3, 39);
+}
+
+nav li {
+    margin-right: 10px;
+    font-family: 'PT Sans Narrow';
+    font-size: .6rem;
+}
+
+nav a {
+    color: white;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #1c9397;
+    border-bottom: 3px solid #1c9397;
+}
+
+
+section.acerca{
+    width: 60%;
+       margin-top: 2%;
+       letter-spacing: 3rem;
+       font-size: 2rem;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-align: left;
+       color: rgb(250, 250, 250);
+      
+   }   
+   
+ section.demi{
+       
+      width: 100%;
+       margin-top: -2%;
+       font-size: 2rem;
+       letter-spacing: .2rem;
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       text-align: left;
+       color: rgb(250, 250, 250);
+       }
+       article p,h2,h1{
+        text-align: justify;
+        color: rgb(250, 250, 250);
+       }
+       .curso{
+    
+        width: 100%;
+         margin-top: -2%;
+         font-size: 0.9em;
+         letter-spacing: .2rem;
+         font-family: Agency -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+         text-align: left;
+         color: rgb(250, 250, 250);
+         text-align: justify;
+    }
